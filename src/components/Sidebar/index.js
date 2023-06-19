@@ -13,16 +13,16 @@ const Sidebar=() =>(
         </Link>
 
         <nav>
-            <NavLink exact='true' activeclassname='active' to='/'>
+            <NavLink exact='true' activeclassname='active' to='/portfolio'>
                 <FontAwesomeIcon icon={faHome} color='#4d4d4e'>
             </FontAwesomeIcon></NavLink>
-            <NavLink exact='true' activeclassname='active' className='about-link'to='/about'>
+            <NavLink exact='true' activeclassname='active' className='about-link'to='/portfolio/about'>
                 <FontAwesomeIcon icon={faUser} color='#4d4d4e'></FontAwesomeIcon>
             </NavLink>
-            <NavLink exact='true' activeclassname='active' className='contact-link' to='/contact'>
+            <NavLink exact='true' activeclassname='active' className='contact-link' to='/portfolio/contact'>
                 <FontAwesomeIcon icon={faEnvelope} color='#4d4d4e'></FontAwesomeIcon>
             </NavLink>
-            <NavLink exact='true' activeclassname='active' className='projects-link' to='/project'>
+            <NavLink exact='true' activeclassname='active' className='projects-link' to='/portfolio/project'>
                 <FontAwesomeIcon icon={faProjectDiagram} color='#4d4d4e'></FontAwesomeIcon>
             </NavLink>
         </nav>
