@@ -1,0 +1,51 @@
+    .contact-form{
+        width: 100%;
+        
+
+        table{
+            padding: 0;
+            margin: 0;
+
+            tr{
+
+                overflow: hidden;
+                display: block;
+                position: relative;
+                opacity: 0;
+                animation: fadeIn 2s 2s;
+                animation-fill-mode: forwards;
+            }
+        }
+        input[type='text'],input[type='email']{
+            width: 100%;
+            border: 0;
+            background: #115173;
+            color: white;
+            height: 50px;
+            font-size: 15px;
+            padding: 0 20px;
+            box-sizing: border-box;
+        }
+        textarea{
+            width: 100%;
+            border: 0;
+            background: #115173;
+            color: white;
+            height: 50px;
+            font-size: 15px;
+            padding: 0 20px;
+            box-sizing: border-box;
+        }
+        .flat-button{
+            color: rgb(0, 255, 60);
+            background: 0 0;
+            font: 11px;
+            letter-spacing: 3px;
+            text-decoration: none;
+            padding: 8px 10px;
+            border: 1px solid;
+            float: left;
+            
+        }
+
+    }
